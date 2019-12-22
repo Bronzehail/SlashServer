@@ -9,23 +9,23 @@ player-transfer-message: "&e%PLAYER% &bhas been transferred to the &e%SERVER%"
 
 menu:
   enabled: true
-  title: "Servers"
+  title: "§l§bSmoks§3PE §cServers"
 
 servers:
-  lobby:
-    command: lobby
+  SkyBlock:
+    command: skyblock
     address: 127.0.0.1
     port: "19132"
-    description: lobby server
+    description: §bSkyBlock Server!!
     aliases:
-      - hub
+      - sb
     image-type: url
     image: https://gamepedia.cursecdn.com/minecraft_gamepedia/thumb/d/d6/Nether_Bricks.png/150px-Nether_Bricks.png?version=389147a764733d6b6fe4053cd2411316
-  survival:
-    command: survival
+  Minigames:
+    command: minigames
     address: 127.0.0.1
     port: 19131
-    description: survival server
+    description: §aMinigames Server
     aliases: []
     image-type: path
     image: textures/items/iron_pickaxe
